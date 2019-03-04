@@ -41,4 +41,12 @@ $params = [
     'phone' => '13888888888',
 ];
 $result = $member->checkexist($params);
+
+// 积分模块模块
+$points = $uhy->points;
+$params = [
+    ...
+];
+$result = $points->calc($params);
+
 ```
